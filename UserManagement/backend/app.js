@@ -12,7 +12,7 @@ app.use(cors());
 app.use("/users",router);
 
 
- mongoose.connect("mongodb+srv://admindila:Wb96pxQyGGwWpeM@cluster0.2dvt4ao.mongodb.net/yasas1db?retryWrites=true&w=majority&appName=Cluster0")
+ mongoose.connect("mongodb+srv://admin:IU557UrjNnHOupXZ@cluster0.wsf53yd.mongodb.net/userdb?retryWrites=true&w=majority&appName=Cluster0")
 .then(()=> console.log("Connected to mongoDB"))
 .then(() => {
     app.listen(5000);
